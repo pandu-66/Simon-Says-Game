@@ -2,7 +2,7 @@ body{
     text-align: center;
 }
 
-.btn-container{
+.line{
     display: flex;
     justify-content: center;
 }
@@ -13,6 +13,12 @@ body{
     border: 8px solid black;
     border-radius: 20%;
     margin: 1rem;
+}
+
+#highScore{
+    position: absolute;
+    top: 10px;
+    right: 50px;
 }
 
 .one{
@@ -28,7 +34,21 @@ body{
 .four{
     background-color: #819ff9;
 }
-
+.five{
+    background-color: aquamarine;
+}
+.six{
+    background-color: chocolate;
+}
+.seven{
+    background-color: darkmagenta;
+}
+.eight{
+    background-color: violet;
+}
+.nine{
+    background-color: rgb(200, 200, 77);
+}
 .white{
     background-color: white;
 }
